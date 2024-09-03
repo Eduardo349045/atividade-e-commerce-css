@@ -1,0 +1,66 @@
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 22px;
+    text-shadow: 2px 1px 3px #aaa;  
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+}
+
+fieldset {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #000000;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
